@@ -18,10 +18,10 @@ const Upload: FC = () => {
         </div>
         <div className={styles.buttons}>
             <Link to={ROUTE_PATH[APP_ROUTES.RESULT]} className={styles.iconButton}>
-                <IconButton icon='' text='Choose photo from gallery' />
+                <IconButton icon='/icon_picture.png' text='Choose photo from gallery' />
             </Link>
             <Link to={ROUTE_PATH[APP_ROUTES.RESULT]} className={styles.iconButton}>
-                <IconButton icon='' text='Take photo with camera' />
+                <IconButton icon='/icon_camera.png' text='Take photo with camera' />
             </Link>
         </div>
     </div>
