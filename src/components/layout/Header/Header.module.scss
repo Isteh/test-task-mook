@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  background-color: var(--bright-color);
+  border-radius: 0px 0px var(--main-border-radius) var(--main-border-radius);
+  padding: 19px 34px;
+}
+
+.logo {
+  color: var(--dark-color);
+  font: var(--font-xl) var(--font-family-montserrat);
+  font-weight: var(--font-weight-black);
+  text-decoration: none;
+}
+.signIn {
+  margin-left: auto;
+  font-size: var(--font-size-s);
+  line-height: var(--line-height-s);
+  font-weight: var(--font-weight-kraftig);
+  max-width: 98px;
+}

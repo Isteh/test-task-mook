@@ -1,0 +1,25 @@
+.footer {
+  width: 100%;
+  min-height: 80px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-radius: var(--main-border-radius) var(--main-border-radius) 0px 0px;
+  background-color: var(--bright-color);
+  padding: 30px 45px;
+
+  font: var(--font-s) var(--font-family-sf-pro);
+  color: var(--dark-color);
+}
+
+.mail {
+  font-weight: var(--font-weight-regular);
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  font-weight: var(--font-weight-thin);
+}

@@ -1,0 +1,34 @@
+.button {
+  width: 100%;
+  border-radius: var(--main-border-radius);
+
+  font-family: var(--font-family-soehne);
+
+  background-color: var(--bright-color);
+  color: var(--dark-color);
+  border: none;
+  box-shadow: var(--main-shadow);
+
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.4;
+  }
+}
+
+.accent {
+  background-color: var(--accent-light-color);
+  color: var(--bright-color);
+}
+
+.bordered {
+  border: 2px solid var(--accent-dark-color);
+  background-color: var(--bright-color);
+  color: var(--accent-dark-color);
+
+  box-shadow: 0px 0px 10px #6600ff66;
+}

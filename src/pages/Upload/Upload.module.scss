@@ -1,0 +1,80 @@
+.page {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  padding: 50px 30px;
+  height: var(--main-height-app);
+}
+
+.back {
+  padding: 7.5px 20px;
+  width: 184px;
+  margin-bottom: 50px;
+}
+
+.backText {
+  // 50 - 21px
+  padding-left: 29px;
+  font-weight: var(--font-weight-dreiviertelfett);
+  font-size: var(--font-size-l);
+  line-height: var(--line-height-l);
+  position: relative;
+
+  &::after,
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+
+    width: 4px;
+    height: 15px;
+    border-radius: 0 0 2px 2px;
+    background-color: var(--dark-color);
+    transform-origin: top center;
+
+    transform: translateY(1px) rotate(-135deg);
+  }
+
+  &::before {
+    transform: translateY(-1px) rotate(-45deg);
+  }
+}
+
+.videoContainer {
+  height: 315px;
+  width: 315px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  position: relative;
+
+  border-radius: 20px;
+  background-color: var(--bright-color);
+  box-shadow: var(--white-inset-shadow);
+  border: 3px solid var(--bright-color);
+}
+
+.video {
+  height: auto;
+  width: 315px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttons {
+  align-self: center;
+  display: flex;
+
+  gap: 22px;
+
+  > a {
+    flex-grow: 0;
+  }
+}
+
+.iconButton {
+  text-decoration: none;
+}

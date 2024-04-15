@@ -1,0 +1,15 @@
+.input {
+  padding: 11px 20px;
+  font: var(--font-m) var(--font-family-soehne);
+  font-weight: var(--font-weight-buch);
+  color: var(--dark-color);
+
+  background-color: var(--bright-color);
+  box-shadow: var(--main-shadow);
+  border: 2px solid var(--dark-color);
+  border-radius: var(--main-border-radius);
+
+  &::placeholder {
+    opacity: 0.5;
+  }
+}

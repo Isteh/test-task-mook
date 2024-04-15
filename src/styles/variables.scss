@@ -1,0 +1,56 @@
+:root {
+  // fonts
+  --font-family-sf-pro: 'SF-pro', sans-serif;
+  --font-family-montserrat: 'Montserrat', sans-serif;
+  --font-family-soehne: 'Soehne', sans-serif;
+
+  // font-weight
+  --font-weight-dreiviertelfett: 700;
+  --font-weight-kraftig: 500;
+  --font-weight-buch: 300;
+  --font-weight-thin: 200;
+  --font-weight-regular: 400;
+  --font-weight-black: 800;
+
+  // font size / line height
+  --font-size-xs: 15px;
+  --line-height-xs: 20px;
+  --font-xs: 15px / 20px;
+
+  --font-size-s: 20px;
+  --line-height-s: 24px;
+  --font-s: 20px / 24px;
+
+  --font-size-m: 25px;
+  --line-height-m: 33px;
+  --font-m: 25px / 33px;
+
+  --font-size-xm: 27px;
+  --line-height-xm: 36px;
+  --font-xm: 27px / 36px;
+
+  --font-size-l: 30px;
+  --line-height-l: 40px;
+  --font-l: 30px / 40px;
+
+  --font-size-xl: 35px;
+  --line-height-xl: 43px;
+  --font-xl: 35px / 43px;
+
+  // colors
+
+  --bright-color: #fceff9;
+  --dark-color: #080708;
+  --accent-dark-color: #6600ff;
+  --accent-light-color: #00cc99;
+
+  // other
+
+  --main-shadow: 0px 0px 20px #08070880;
+  --main-bg-linear-gradient: linear-gradient(180deg, #6600ff 0%, #00cc99 100%)
+    0% 0% no-repeat padding-box;
+  --white-inset-shadow: inset 3px 3px 6px #eee5e9;
+  --main-border-radius: 50px;
+
+  --main-height-app: 812px;
+}

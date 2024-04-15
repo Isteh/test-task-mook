@@ -1,0 +1,28 @@
+@import './fonts';
+@import './reset';
+@import './variables';
+
+.app {
+  font: var(--font-s) var(--font-family-montserrat);
+  color: var(--bright-color);
+  background: var(--main-bg-linear-gradient);
+
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 375px;
+  min-height: 100vh;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
