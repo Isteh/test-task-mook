@@ -22,3 +22,5 @@ Way to view:
 3. npm run build
 4. npm run preview
 5. follow to http://localhost:4173/ or the port specified in the console output
+
+Or go to deploy: https://test-task-mook.netlify.app/
